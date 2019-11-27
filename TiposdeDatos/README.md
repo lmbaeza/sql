@@ -20,6 +20,7 @@
 | double precision | 64 Bits  | precisión variable, inexacta | 15 digitos decimales de precisión |
 | decimal | variable | precisión especificada por el usuario, exacta | Sin Limite |
 | numeric | variable | precisión especificada por el usuario, exacta | Sin Limite |
+| money | 32 Bits | cantidad de moneda | -92233720368547758.08 to +92233720368547758.07 |
 
 **NUMERIC:**
 
@@ -38,3 +39,5 @@ Se pueden configurar tanto la precisión máxima como la escala máxima de una c
 
 # Bibliografia
 [[1]](https://www.postgresql.org/docs/9.0/datatype-numeric.html) Postgresql.org. (2019). PostgreSQL: Documentation: 9.0: Numeric Types. [online] Available at: https://www.postgresql.org/docs/9.0/datatype-numeric.html.
+
+[[2]](https://www.postgresql.org/docs/9.0/datatype-numeric.html) Postgresql.org. (2019). PostgreSQL: Documentation: 9.0: Numeric Types. [online] Available at: https://www.postgresql.org/docs/9.0/datatype-numeric.html.
